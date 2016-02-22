@@ -1,0 +1,4 @@
+c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\IfElseProj\bin\Debug\IfElseProj.exe
+c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\IfElseProj\bin\Debug\IfElseProj.pdb
+c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\IfElseProj\obj\Debug\IfElseProj.exe
+c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\IfElseProj\obj\Debug\IfElseProj.pdb

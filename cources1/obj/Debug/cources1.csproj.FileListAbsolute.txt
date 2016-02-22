@@ -1,0 +1,5 @@
+c:\users\oleg\documents\visual studio 2012\Projects\cources1\cources1\bin\Debug\cources1.exe
+c:\users\oleg\documents\visual studio 2012\Projects\cources1\cources1\bin\Debug\cources1.pdb
+c:\users\oleg\documents\visual studio 2012\Projects\cources1\cources1\obj\Debug\cources1.csprojResolveAssemblyReference.cache
+c:\users\oleg\documents\visual studio 2012\Projects\cources1\cources1\obj\Debug\cources1.exe
+c:\users\oleg\documents\visual studio 2012\Projects\cources1\cources1\obj\Debug\cources1.pdb

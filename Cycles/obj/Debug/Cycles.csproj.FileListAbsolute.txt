@@ -1,0 +1,5 @@
+c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\Cycles\obj\Debug\Cycles.csprojResolveAssemblyReference.cache
+c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\Cycles\bin\Debug\Cycles.exe
+c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\Cycles\bin\Debug\Cycles.pdb
+c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\Cycles\obj\Debug\Cycles.exe
+c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\Cycles\obj\Debug\Cycles.pdb
