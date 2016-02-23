@@ -9,21 +9,21 @@ namespace Cycles
     {
         public static void Task1()
         {
-            int n=int.Parse(Console.ReadLine());
+            int user_input=int.Parse(Console.ReadLine());
 
             for (int i = 1; i < 21; i++)
             {
-                Console.WriteLine(n.ToString() +" * "+i.ToString() +" = " +(n * i).ToString());
+                Console.WriteLine(user_input.ToString() + " * " + i.ToString() + " = " + (user_input * i).ToString());
             }
 
 
         }
         public static void Task2()
         {
-            int n = int.Parse(Console.ReadLine());
+            int user_input = int.Parse(Console.ReadLine());
             int count = 1;
 
-            while ( (n/Convert.ToInt32(Math.Pow(10,count))) !=0)
+            while ((user_input / Convert.ToInt32(Math.Pow(10, count))) != 0)
             {
                 
                 count++;
@@ -32,8 +32,8 @@ namespace Cycles
         }
         public static void Task3()
         {
-            Random r=new Random();
-            int number=r.Next(1,146);
+            Random rand=new Random();
+            int number=rand.Next(1,146);
 
             int k=-1;
             //k = int.Parse(Console.ReadLine());
@@ -55,9 +55,9 @@ namespace Cycles
         }
         public static void Task4()
         {
-            int n = int.Parse(Console.ReadLine());
+            int user_input = int.Parse(Console.ReadLine());
             int i = 1;
-            while (Math.Pow(i, 2) < n)
+            while (Math.Pow(i, 2) < user_input)
             {
                 Console.WriteLine(Math.Pow(i, 2));
                 i++;
@@ -81,12 +81,12 @@ namespace Cycles
         public static void Task6()
         {
             int[] numbers = new int[5];
-            Random r = new Random();
+            Random rand = new Random();
             double ar = 0;
 
             for (int i = 0; i < 5; i++)
             {
-                ar += Convert.ToDouble(r.Next(int.MaxValue,int.MaxValue)) / 5.0;
+                ar += Convert.ToDouble(rand.Next(int.MaxValue,int.MaxValue)) / 5.0;
             }
             Console.WriteLine(ar);
 
