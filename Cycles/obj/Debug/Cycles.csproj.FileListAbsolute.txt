@@ -3,3 +3,8 @@ c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\Cycles\bin\Debug\Cy
 c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\Cycles\bin\Debug\Cycles.pdb
 c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\Cycles\obj\Debug\Cycles.exe
 c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\Cycles\obj\Debug\Cycles.pdb
+C:\Users\Oleg\Downloads\Cources-master\Cources-master\Cycles\obj\Debug\Cycles.exe
+C:\Users\Oleg\Downloads\Cources-master\Cources-master\Cycles\obj\Debug\Cycles.pdb
+C:\Users\Oleg\Downloads\Cources-master\Cources-master\Cycles\bin\Debug\Cycles.exe
+C:\Users\Oleg\Downloads\Cources-master\Cources-master\Cycles\bin\Debug\Cycles.pdb
+C:\Users\Oleg\Downloads\Cources-master\Cources-master\Cycles\obj\Debug\Cycles.csprojResolveAssemblyReference.cache

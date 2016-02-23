@@ -3,3 +3,8 @@ c:\users\oleg\documents\visual studio 2012\Projects\cources1\cources1\bin\Debug\
 c:\users\oleg\documents\visual studio 2012\Projects\cources1\cources1\obj\Debug\cources1.csprojResolveAssemblyReference.cache
 c:\users\oleg\documents\visual studio 2012\Projects\cources1\cources1\obj\Debug\cources1.exe
 c:\users\oleg\documents\visual studio 2012\Projects\cources1\cources1\obj\Debug\cources1.pdb
+C:\Users\Oleg\Downloads\Cources-master\Cources-master\cources1\bin\Debug\cources1.exe
+C:\Users\Oleg\Downloads\Cources-master\Cources-master\cources1\bin\Debug\cources1.pdb
+C:\Users\Oleg\Downloads\Cources-master\Cources-master\cources1\obj\Debug\cources1.csprojResolveAssemblyReference.cache
+C:\Users\Oleg\Downloads\Cources-master\Cources-master\cources1\obj\Debug\cources1.exe
+C:\Users\Oleg\Downloads\Cources-master\Cources-master\cources1\obj\Debug\cources1.pdb

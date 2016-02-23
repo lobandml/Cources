@@ -10,6 +10,7 @@ namespace Cycles
         public static void Task1()
         {
             int n=int.Parse(Console.ReadLine());
+
             for (int i = 1; i < 21; i++)
             {
                 Console.WriteLine(n.ToString() +" * "+i.ToString() +" = " +(n * i).ToString());
@@ -20,20 +21,22 @@ namespace Cycles
         public static void Task2()
         {
             int n = int.Parse(Console.ReadLine());
-            int count = 0;
-            while ( (n/Math.Pow(10,count)) !=0)
+            int count = 1;
+
+            while ( (n/Convert.ToInt32(Math.Pow(10,count))) !=0)
             {
+                
                 count++;
             }
-            Console.WriteLine(count.ToString() + " разрядов");
+            Console.WriteLine((count).ToString() + " разрядов");
         }
         public static void Task3()
         {
             Random r=new Random();
             int number=r.Next(1,146);
 
-            int k;
-            k = int.Parse(Console.ReadLine());
+            int k=-1;
+            //k = int.Parse(Console.ReadLine());
             while (k != number)
             {
                 k = int.Parse(Console.ReadLine());

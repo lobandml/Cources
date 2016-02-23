@@ -2,3 +2,8 @@ c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\IfElseProj\bin\Debu
 c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\IfElseProj\bin\Debug\IfElseProj.pdb
 c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\IfElseProj\obj\Debug\IfElseProj.exe
 c:\Users\Oleg\documents\visual studio 2012\Projects\cources1\IfElseProj\obj\Debug\IfElseProj.pdb
+C:\Users\Oleg\Downloads\Cources-master\Cources-master\IfElseProj\obj\Debug\IfElseProj.exe
+C:\Users\Oleg\Downloads\Cources-master\Cources-master\IfElseProj\obj\Debug\IfElseProj.pdb
+C:\Users\Oleg\Downloads\Cources-master\Cources-master\IfElseProj\bin\Debug\IfElseProj.exe
+C:\Users\Oleg\Downloads\Cources-master\Cources-master\IfElseProj\bin\Debug\IfElseProj.pdb
+C:\Users\Oleg\Downloads\Cources-master\Cources-master\IfElseProj\obj\Debug\IfElseProj.csprojResolveAssemblyReference.cache
