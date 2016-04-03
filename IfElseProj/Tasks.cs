@@ -7,10 +7,33 @@ namespace IfElseProj
 {
     class Tasks
     {
+
+        private static int IntParseInput(string message)
+        {
+            int result;
+            do
+            {
+                Console.WriteLine(message);
+            }
+            while (!Int32.TryParse(Console.ReadLine(), out result));
+            return result;
+        }
+
+        private static double DoubleParseInput(string message)
+        {
+            double result;
+            do
+            {
+                Console.WriteLine(message);
+            }
+            while (!Double.TryParse(Console.ReadLine(), out result));
+            return result;
+        }
+
         public static void Task1()
         {
-            int first = Convert.ToInt32(Console.ReadLine());
-            int second = Convert.ToInt32(Console.ReadLine());
+            int first = IntParseInput("Введите первое значение");
+            int second = IntParseInput("Введите второе значение");
             Console.WriteLine(first > second ? first.ToString() : second.ToString());
         }
 
@@ -73,18 +96,20 @@ namespace IfElseProj
         public static void Task5()
         {
             string[] days = { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье" };
-            int x = Convert.ToInt32(Console.ReadLine());
+            int x = IntParseInput("Введите номер дня недели ");
             if (x >= 1 && x <= 7)
             {
                 Console.WriteLine(days[x - 1]);
             }
+            else Console.WriteLine("некорректный номер дня недели");
+            
         }
         public static void Task6()
         {
-            Console.WriteLine("Кол-во километров:");
-            int kms = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Кол-во минут простоя:");
-            int mins = Convert.ToInt32(Console.ReadLine());
+            
+            int kms = IntParseInput("Кол-во километров:");
+            
+            int mins = IntParseInput("Кол-во минут простоя:");
 
             if (kms <= 5)
             {
@@ -102,8 +127,8 @@ namespace IfElseProj
         {
             bool prost = true;
 
-            Console.WriteLine("Введите число");
-            int n = int.Parse(Console.ReadLine());
+            
+            int n = IntParseInput("Введите число");
 
             for (int i = 2; i <= Math.Sqrt(n) + 1; i++)
             {
@@ -126,8 +151,8 @@ namespace IfElseProj
         }
         public static void Task8()
         {
-            Console.WriteLine("Введите число");
-            int n = int.Parse(Console.ReadLine());
+            
+            int n = IntParseInput("Введите число");
 
             Random rnd = new Random();
             int ch = rnd.Next(1, 12);
@@ -142,7 +167,7 @@ namespace IfElseProj
                     case 6:
                     case 7:
                     case 8:
-
+                        // Ничего не нужно менять
                         break;
                     case 9:
                     case 10:
@@ -153,7 +178,9 @@ namespace IfElseProj
                     case 12:
                         n *= 10;
                         break;
-
+                    default:
+                        throw new IndexOutOfRangeException("Выход за пределы допустимых значений");
+                        break;
                 }
             }
 
@@ -164,8 +191,8 @@ namespace IfElseProj
         {
 
             double[] valmatrix = { 26.4623, 29.3308 };
-            Console.WriteLine("Введите сумму");
-            int sum = int.Parse(Console.ReadLine());
+            
+            int sum = IntParseInput("Введите сумму");
 
             Console.WriteLine("Введите валюту (UAH, USD, EUR):");
             string buf = Console.ReadLine().ToUpper();

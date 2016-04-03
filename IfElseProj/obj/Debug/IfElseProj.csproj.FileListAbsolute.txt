@@ -7,3 +7,8 @@ C:\Users\Oleg\Downloads\Cources-master\Cources-master\IfElseProj\obj\Debug\IfEls
 C:\Users\Oleg\Downloads\Cources-master\Cources-master\IfElseProj\bin\Debug\IfElseProj.exe
 C:\Users\Oleg\Downloads\Cources-master\Cources-master\IfElseProj\bin\Debug\IfElseProj.pdb
 C:\Users\Oleg\Downloads\Cources-master\Cources-master\IfElseProj\obj\Debug\IfElseProj.csprojResolveAssemblyReference.cache
+C:\Users\Oleg\Documents\Cources\IfElseProj\obj\Debug\IfElseProj.exe
+C:\Users\Oleg\Documents\Cources\IfElseProj\obj\Debug\IfElseProj.pdb
+C:\Users\Oleg\Documents\Cources\IfElseProj\bin\Debug\IfElseProj.exe
+C:\Users\Oleg\Documents\Cources\IfElseProj\bin\Debug\IfElseProj.pdb
+C:\Users\Oleg\Documents\Cources\IfElseProj\obj\Debug\IfElseProj.csprojResolveAssemblyReference.cache

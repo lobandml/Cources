@@ -7,9 +7,33 @@ namespace Cycles
 {
     class Tasks
     {
+
+        private static int IntParseInput(string message)
+        {
+            int result;
+            do
+            {
+                Console.WriteLine(message);
+            }
+            while (!Int32.TryParse(Console.ReadLine(), out result));
+            return result;
+        }
+
+        private static double DoubleParseInput(string message)
+        {
+            double result;
+            do
+            {
+                Console.WriteLine(message);
+            }
+            while (!Double.TryParse(Console.ReadLine(), out result));
+            return result;
+        }
+
         public static void Task1()
         {
-            int user_input=int.Parse(Console.ReadLine());
+
+            int user_input = IntParseInput("введите число:");
 
             for (int i = 1; i < 21; i++)
             {
@@ -20,7 +44,7 @@ namespace Cycles
         }
         public static void Task2()
         {
-            int user_input = int.Parse(Console.ReadLine());
+            int user_input = IntParseInput("введите число:");
             int count = 1;
 
             while ((user_input / Convert.ToInt32(Math.Pow(10, count))) != 0)
@@ -39,7 +63,7 @@ namespace Cycles
             //k = int.Parse(Console.ReadLine());
             while (k != number)
             {
-                k = int.Parse(Console.ReadLine());
+                k = IntParseInput("введите корректное число:");
                 if (k < number)
                 {
                     Console.WriteLine("больше");
@@ -55,7 +79,7 @@ namespace Cycles
         }
         public static void Task4()
         {
-            int user_input = int.Parse(Console.ReadLine());
+            int user_input = IntParseInput("введите число:");
             int i = 1;
             while (Math.Pow(i, 2) < user_input)
             {
@@ -71,7 +95,7 @@ namespace Cycles
 
             for (int i=0;i<5;i++)
             {
-                numbers[i] = int.Parse(Console.ReadLine());
+                numbers[i] =  IntParseInput("введите " +(i+1).ToString()+" число:");
                 ar += Convert.ToDouble(numbers[i]) / 5.0;
             }
             Console.WriteLine(ar);

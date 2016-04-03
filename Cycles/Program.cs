@@ -16,7 +16,9 @@ namespace Cycles
             Tasks.Task5();
             Tasks.Task6();
             Tasks.Task7();
-            Tasks.Task8();            
+            Tasks.Task8();
+
+            Console.ReadKey();
         }
 
         

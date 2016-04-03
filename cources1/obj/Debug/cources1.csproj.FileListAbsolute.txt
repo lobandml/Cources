@@ -8,3 +8,8 @@ C:\Users\Oleg\Downloads\Cources-master\Cources-master\cources1\bin\Debug\cources
 C:\Users\Oleg\Downloads\Cources-master\Cources-master\cources1\obj\Debug\cources1.csprojResolveAssemblyReference.cache
 C:\Users\Oleg\Downloads\Cources-master\Cources-master\cources1\obj\Debug\cources1.exe
 C:\Users\Oleg\Downloads\Cources-master\Cources-master\cources1\obj\Debug\cources1.pdb
+C:\Users\Oleg\Documents\Cources\cources1\bin\Debug\cources1.exe
+C:\Users\Oleg\Documents\Cources\cources1\bin\Debug\cources1.pdb
+C:\Users\Oleg\Documents\Cources\cources1\obj\Debug\cources1.csprojResolveAssemblyReference.cache
+C:\Users\Oleg\Documents\Cources\cources1\obj\Debug\cources1.exe
+C:\Users\Oleg\Documents\Cources\cources1\obj\Debug\cources1.pdb

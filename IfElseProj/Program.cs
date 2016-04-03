@@ -18,8 +18,8 @@ namespace IfElseProj
             Tasks.Task7();
             Tasks.Task8();
             Tasks.Task9();
-            
-           
+
+            Console.ReadKey();
         }
     }
 }
